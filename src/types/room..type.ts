@@ -1,5 +1,5 @@
 import { RoomType } from "./roomType.enum"
-import Player from "./player"
+import Player from "./player.type"
 
 export default interface Room {
     id: number
