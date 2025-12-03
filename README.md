@@ -4,5 +4,5 @@ Repositorio para poder almacenar la informacion de tipos, eventos, dtos, entre o
 
 ## Instalacion en el front y back
 ```bash
-git submodule add https://github.com/tuusuario/shared.git shared
+git submodule add https://github.com/SantiagoIvan/impostorcitos-shared.git shared
 ```
