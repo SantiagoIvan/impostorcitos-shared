@@ -5,7 +5,8 @@
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project tsconfig.json"
   },
   "keywords": [],
   "author": "Santiago Feijoo",
@@ -13,5 +14,8 @@
   "description": "Objetos compartidos para el proyecto Impostorcitos",
   "dependencies": {
     "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
   }
 }
