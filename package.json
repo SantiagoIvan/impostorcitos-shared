@@ -10,5 +10,8 @@
   "author": "Santiago Feijoo",
   "license": "ISC",
   "type": "commonjs",
-  "description": "Objetos compartidos para el proyecto Impostorcitos"
+  "description": "Objetos compartidos para el proyecto Impostorcitos",
+  "dependencies": {
+    "zod": "^4.1.13"
+  }
 }
