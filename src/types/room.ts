@@ -10,6 +10,6 @@ export interface Room {
     discussionTime: number // tiempo para discusion en segundos
     voteTime: number // tiempo para votar en segundos
     moveTime: number // tiempo para hacer tu jugada: elegir palabra
-    playersLimit: number
+    maxPlayers: number
     players: Player[]
 }
