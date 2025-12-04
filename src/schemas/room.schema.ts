@@ -2,6 +2,7 @@ import { z } from "zod";
 import {RoomType} from "../types/roomType.enum";
 
 export const createRoomSchema = z.object({
+    admin: z.string(),
     name: z.string().min(3, "El nombre debe tener al menos 3 caracteres"),
     privacy: z.enum(RoomType),
     password: z.string().optional(),
