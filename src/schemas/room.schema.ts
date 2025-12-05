@@ -18,5 +18,3 @@ export const createRoomSchema = z.object({
         path: ["password"],
     }
 );
-
-export type CreateRoomDto = z.infer<typeof createRoomSchema>;

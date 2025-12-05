@@ -1,5 +1,4 @@
-export interface Message {
-    id: string
+export interface CreateMessageDto {
     text: string
     sender: string
     createdAt: string

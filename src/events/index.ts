@@ -1,2 +1,2 @@
-export * from "./rooms.events";
+export * from "./room.events";
 export * from "./socket.events";

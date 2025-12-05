@@ -2,7 +2,7 @@ import { RoomType } from "./roomType.enum"
 import {Player} from "./player.type"
 
 export interface Room {
-    id: number
+    id: string
     admin: Player
     name: string
     password?: string
